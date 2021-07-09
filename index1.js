@@ -6,7 +6,7 @@ const infoApi = new MercadoBitcoin({currency: 'ETH' });
 setInterval(async () => {
     const response = await infoApi.balances();
     console.log(response);
-   /* if(response.balances.ucana > 197000)
+    /*if(response.balances.ucana > 197000)
         return console.log('Ta caro, aguardar')
     else
         return console.log('Ta barato, comprar')*/
